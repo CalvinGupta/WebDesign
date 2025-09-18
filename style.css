@@ -1,0 +1,44 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  body {
+    background-color: lightblue;
+  }
+  
+  table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  
+  td {
+    padding: 0px;
+    border: 0px;
+  }
+  
+  button {
+    background-color: #404040;
+    border: 0px;
+    height: 80px;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  button:hover {
+  background-color: #606060;
+  }
+  
+  thead {
+    background-color: #606060;
+  }
+  
+  #FundamentalsOfHTML td{
+    width:33.33%;
+  }
+  #FundamentalsOfCSS td {
+    width:25%;
+  }
+  
