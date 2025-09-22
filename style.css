@@ -7,6 +7,11 @@
     background-color: lightblue;
   }
   
+  td {
+    padding: 0px;
+    border: 0px;
+  }
+  
   table {
     width: 100%;
     text-align: center;
@@ -14,25 +19,36 @@
     margin-bottom: 10px;
   }
   
-  td {
-    padding: 0px;
-    border: 0px;
-  }
-  
-  button {
-    background-color: #404040;
+  .WebFoundations button {
+    background-color: #606060;
     border: 0px;
     height: 80px;
     width: 100%;
     font-size: 14px;
   }
   
-  button:hover {
-  background-color: #606060;
+  .WebFoundations button:hover {
+  background-color: #404040;
   }
   
-  thead {
-    background-color: #606060;
+  .WebFoundations thead {
+    background-color: #404040;
+  }
+
+  .ImprovedStylingWithCSS button {
+    background-color: #a955be;
+    border: 0px;
+    height: 80px;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .ImprovedStylingWithCSS button:hover {
+  background-color: #843498;
+  }
+  
+  .ImprovedStylingWithCSS thead {
+    background-color: #843498;
   }
   
   #FundamentalsOfHTML td{
@@ -44,5 +60,8 @@
   }
   
   #DevelopingWebsitesLocally td {
+    width:100%;
+  }
+  #ImprovedStylingWithCSS td {
     width:100%;
   }
