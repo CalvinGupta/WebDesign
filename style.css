@@ -38,7 +38,11 @@
   #FundamentalsOfHTML td{
     width:33.33%;
   }
+
   #FundamentalsOfCSS td {
     width:25%;
   }
   
+  #DevelopingWebsitesLocally td {
+    width:100%;
+  }
