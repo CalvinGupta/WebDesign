@@ -1,0 +1,33 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    color: darkorange;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+th {
+    background-color: lightpink;
+    border: 2px solid black;
+    padding: 5px;
+}
