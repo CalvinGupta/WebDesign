@@ -1,0 +1,70 @@
+body {
+    margin-left:100px;
+    margin-right: 100px;
+    background-color:  rgb(193, 193, 193);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 100%;
+    border: 2px solid black;
+    background-color: white;
+}
+
+td {
+    text-align: center;
+    width: 50%;
+}
+
+div h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+td div {
+    margin: 30px 50px;    
+}
+
+.blue {
+    background-color: rgb(147, 185, 255);
+}
+
+.red {
+    background-color: rgb(206, 102, 102);
+}
+
+.green {
+    background-color: rgb(116, 222, 148);
+}
+
+.orange {
+    background-color: rgb(248, 188, 109);
+}
+
+.Arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.TimesNewRoman {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Helvetica {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.Georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.light {
+    font-weight: 100;
+}
+
+.normal {
+    font-weight: 700;
+}
+
+.bold {
+    font-weight: 900;
+}
