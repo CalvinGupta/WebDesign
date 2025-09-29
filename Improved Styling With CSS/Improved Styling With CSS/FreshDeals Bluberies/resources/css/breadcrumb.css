@@ -1,0 +1,17 @@
+.breadcrumb li {
+    display: inline;
+  }
+  
+  .breadcrumb li.location+li.location::before {
+    content: ">";
+  }
+  
+  .breadcrumb li.attribute {
+    color: gray;
+  }
+  
+  .breadcrumb li.attribute::after {
+    content: " x";
+    vertical-align: super;
+    font-size: 0.7em;
+  }
