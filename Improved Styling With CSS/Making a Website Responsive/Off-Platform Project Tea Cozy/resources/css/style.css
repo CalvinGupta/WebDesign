@@ -1,0 +1,142 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+li, p {
+    font-size: 22px;
+}
+
+header {
+    top: 0;
+    left: 0;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+main {
+    top: 0;
+    padding-top: 60px;
+}
+
+ul {
+    float: right;
+}
+
+header img {
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+}
+
+li {
+    display: inline;
+    padding:  10px;
+}
+
+#mainBack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 800px;
+    text-align: center;
+    background-image: url('../images/img-mission-background.jpg');
+    margin: 0 auto 80px auto;
+}
+
+
+#mainFront {
+    background-color: black;
+    width: 100%;
+}
+
+#teaOfTheMonth {
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto 80px auto;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td {
+    padding: 0 10px;
+}
+
+td img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 0px;
+}
+
+td h4 {
+    margin-top: 10px;
+}
+
+#locationsOuter {
+    background-image: url(../images/img-locations-background.jpg);
+    height: 600px;
+    width: 1200px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#locationsInner {
+    background-color: transparent;
+    opacity: 1;
+}
+
+#locationsInner h2{
+    background-color: transparent;
+    margin: 0;
+}
+
+#locationsInner table {
+    background-color: transparent;
+    margin-top: 15px;
+    opacity: 1;
+    border-spacing: 30px 0;
+}
+
+#locationsInner tr {
+    opacity: 1;
+}
+
+#locationsInner tbody {
+    opacity: 1;
+}
+
+#locationsInner td {
+    width: 300px;
+    opacity: 1;
+    padding: 0px;
+}
+
+footer {
+    display: flexbox;
+    height: 200px;
+    justify-items: center;
+}
+
+footer h2 {
+    margin: 0px;
+    padding-top: 10px;
+    margin-bottom: 47.13px;
+}
+
+footer h5 {
+    margin: 47.13px auto;
+}
