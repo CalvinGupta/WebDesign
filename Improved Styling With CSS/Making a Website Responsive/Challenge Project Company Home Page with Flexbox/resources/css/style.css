@@ -1,0 +1,197 @@
+html {
+    font-size: 16px;
+    background-color: rgb(255, 133, 133)
+}
+
+@media screen and (max-width: 767px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 70px;
+    margin: 0;
+    background-color: rgb(255, 133, 133);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+header img {
+    height: 50px;
+}
+
+header nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    display: inline;
+    height: 100%;
+}
+
+header button {
+    background-color: rgb(255, 133, 133);
+    border: none;
+    height: 100%;
+    padding: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header button:hover {
+    background-color: rgb(255, 108, 108);
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        position: fixed;
+        top:0;
+        left:8px;
+    }
+    main {
+        margin-top: 70px;
+    }
+}
+
+.banner {
+    background-color: rgb(86, 49, 49);
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 215, 215);
+}
+
+.banner h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.quote img {
+    width: 50%;
+}
+
+.quote h3 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 767px) {
+    .quote {
+        display: block;
+    }
+    .quote img {
+        width: 100%;
+    }
+}
+
+.products {
+    background-color: rgb(255, 209, 209);
+    margin-top: 20px;
+}
+
+.products h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 19.92px;
+}
+
+.apples {
+    display: flex;
+    column-gap: 10px;
+}
+
+.apples div {
+    flex: 1;
+    text-align: center;
+}
+
+.apples img {
+    width: 100%;
+}
+
+.apples p {
+    font-size: 2rem;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+    .apples {
+        display: block;
+    }
+    .apples img {
+        width: 100%;
+    }
+    .apples p {
+        padding-bottom: 40px;
+    }
+}
+
+.employees {
+    background-color: rgb(81, 0, 0);
+    color: white;
+    margin-top: 20px;
+}
+
+.employees h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 19.92px;
+}
+
+.CEO {
+    display: flex;
+    column-gap: 20px;
+    text-align: center;
+}
+
+
+.CEO img {
+    width: 100%;
+}
+
+.CEO h4 {
+    font-size: 2rem;
+}
+
+.CEO h6 {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+    .CEO {
+        display: block;
+    }
+    .CEO img {
+        width: 100%;
+    }
+    .CEO h6 {
+        padding-bottom: 40px;
+    }
+}
