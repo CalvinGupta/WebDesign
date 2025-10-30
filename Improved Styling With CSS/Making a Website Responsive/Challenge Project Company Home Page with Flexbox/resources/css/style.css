@@ -64,9 +64,10 @@ header button:hover {
 
 @media screen and (max-width: 767px) {
     header {
+        width: 100%;
         position: fixed;
         top:0;
-        left:8px;
+        left: 0;
     }
     main {
         margin-top: 70px;

@@ -1,0 +1,129 @@
+html {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 70px;
+    margin: 0;
+    background-color: rgb(174, 174, 174);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+header img {
+    height: 50px;
+}
+
+header nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    display: inline;
+    height: 100%;
+}
+
+header button {
+    background-color: rgb(174, 174, 174);
+    border: none;
+    height: 100%;
+    padding: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header button:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        width: 100%;
+        position: fixed;
+        top:0;
+        left:0;
+    }
+    main {
+        padding-top: 70px;
+    }
+}
+
+.banner {
+    text-align: center;
+}
+
+.soccer {
+    background-color: rgb(231, 231, 231);
+    border: 2px solid black;
+    text-align: center;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-item {
+    flex: 1
+}
+
+.items img {
+    width: 100%
+}
+
+@media only screen and (max-width: 767px) {
+    .items {
+        display: block;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .items img {
+        margin-top: 20px;
+    }
+}
+
+.football {
+    text-align: center;
+    background-color: rgb(70, 70, 70);
+    border: 2px solid black;
+    color: white;
+}
+
+.basketball {
+    text-align: center;
+    background-color: rgb(147, 147, 147);
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+}
+
+.soccer, .football, .basketball {
+    margin-bottom: 20px;
+}
