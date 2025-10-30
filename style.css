@@ -69,6 +69,11 @@
   #FundamentalsOfWebDesign td {
     width: 33.33%;
   }
+
   #MakingAWebsiteResponsive td {
     width: 12.5%;
+  }
+
+  #CSSTransitionsAndAnimation td {
+    width: 100%;
   }
