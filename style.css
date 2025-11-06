@@ -1,10 +1,14 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
   }
   
   body {
     background-color: lightblue;
+    color: white;
+  }
+
+  button {
+    color: white
   }
   
   td {
@@ -50,6 +54,27 @@
   .ImprovedStylingWithCSS thead {
     background-color: #843498;
   }
+
+  .BuildingInteractiveWebsites {
+    color: black;
+  }
+
+  .BuildingInteractiveWebsites button {
+    background-color: #fffeb7;
+    color: black;
+    border: 0px;
+    height: 80px;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .BuildingInteractiveWebsites button:hover {
+  background-color: #ffff64;
+  }
+  
+  .BuildingInteractiveWebsites thead {
+    background-color: #ffff64;
+  }
   
   #FundamentalsOfHTML td{
     width:33.33%;
@@ -76,4 +101,8 @@
 
   #CSSTransitionsAndAnimation td {
     width: 100%;
+  }
+
+  #JavaScriptSyntaxPartI td {
+    width: 50%;
   }
